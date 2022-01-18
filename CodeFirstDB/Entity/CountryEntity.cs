@@ -7,7 +7,7 @@ namespace CodeFirstDB.Model
     public class CountryEntity
     {
         [Key]
-        public Guid CountryId { get; set; }
+        public Guid Id { get; set; }
 
         public string Name { get; set; }
 

@@ -9,7 +9,7 @@ namespace CodeFirstDB.Model
     {
         [Key]
         //Primary Key
-        public Guid BreweryId { get; set; }
+        public Guid Id { get; set; }
 
         public string Name { get; set; }
 

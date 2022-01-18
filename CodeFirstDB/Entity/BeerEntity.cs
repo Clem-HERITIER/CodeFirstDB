@@ -7,7 +7,7 @@ namespace CodeFirstDB.Model
     public class BeerEntity
     {
         [Key]
-        public Guid BeerId { get; set; }
+        public Guid Id { get; set; }
 
         public string Name { get; set; }
 
@@ -21,6 +21,9 @@ namespace CodeFirstDB.Model
 
         public BeerColorEntity Color { get; set; }
 
-        public  List<IngredientEntity> Ingredients { get; set; }
+        // Demander conceils a un formateur 
+        /*
+        public ICollection<IngredientEntity> Ingredients { get; set; }
+        */
     }
 }

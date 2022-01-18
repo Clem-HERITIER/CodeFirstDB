@@ -3,12 +3,15 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CodeFirstDB.Model
 {
-    [Table("BeerColors")]
-    public class BeerColorEntity
+    [Table("Ingredients")]
+    public class IngredientEntity
     {
         [Key]
-        public Guid ColorID { get; set; }
+        public Guid Id { get; set; }
 
         public string Name { get; set; }
+
+        public string Description { get; set; }
+
     }
 }

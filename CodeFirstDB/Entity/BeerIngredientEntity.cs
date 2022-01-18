@@ -10,7 +10,9 @@ namespace CodeFirstDB.Model
         public Guid Id { get; set; }
 
         public Guid BeerId { get; set; }
+        public BeerEntity Beer { get; set; }
 
         public Guid IngredientId { get; set; }
+        public IngredientEntity Ingredient { get; set; }
     }
 }
